@@ -1,0 +1,9 @@
+
+
+EVIL MINION 
+
+--BY BHUMITRA NAGAR
+
+Please find the screenshots of the model in the screenshots folder
+
+The Evilminion.zip file is the entire project that can be opened with maya.
