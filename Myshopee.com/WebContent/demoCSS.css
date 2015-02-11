@@ -1,0 +1,251 @@
+@CHARSET "ISO-8859-1";
+
+html {
+	background-color: white;
+}
+
+body {
+	background-attachment: scroll;
+	font-family: Times New Roman;
+	font-size: small;
+	color: black;
+	background: white url(cash5.jpg) no-repeat top;
+}
+
+#container {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo {
+	float: left;
+}
+
+#header {
+	margin: auto;
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 10px;
+	
+}
+
+#leftPane {
+	width: auto;
+	float: left;
+	margin: auto;
+	margin-top: 1%;
+	background-color: #80CCFF;
+	color: Red;
+	padding-left: 1mm;
+}
+
+#leftPane a {
+	display: block;
+	width: 97.5%;
+	text-decoration: none;
+	color: Red;
+	text-align: center;
+	width: auto;
+}
+
+#leftPane a:hover {
+	background-color: Red;
+	font-weight: bolder;
+	width: auto;
+}
+
+#header .name {
+	font-size: large;
+	font-style: normal;
+	font-weight: bold;
+	color: Blue;
+	text-align: center;
+	font-family: monospace;
+}
+
+#header .TagLine {
+	font-style: oblique;
+	font-weight: bold;
+	color: Blue;
+	font-size: x-large;
+	text-align: center;
+	
+}
+
+#globalNav {
+	background-color: #A9A9F5;
+	padding-left: 5px;
+	padding-right: 6px;
+	font-family: sans-serif;
+}
+
+#globalNav a {
+	display: block;
+	float: left;
+	padding: 12px 30px 0px 30px;
+	text-decoration: none;
+	color: black;
+	font-size: medium;
+	font-family: Helvetica;
+}
+
+#globalNav a:hover {
+	color: #FFFFFF;
+	font-family: Helvetica;
+	font-weight: bolder;
+}
+
+#centerPane {
+	width: 97.5%;
+	margin: auto;
+	margin-top: 1%;
+	padding: 1%;
+	background-color: #F2F2F2;
+	border-width: 1px;
+	font-size: large;
+	color: Black;
+	font-family: "Book Antiqua", "Times New Roman", "Serif";
+}
+
+#centerPane a {
+	display: Line;
+	width: 97.5%;
+	text-decoration: none;
+	color: Blue;
+	text-align: center;
+	width: auto;
+	font-size: small;
+}
+
+#centerPane a:hover {
+	color: black;
+	font-weight: bolder;
+	width: auto;
+}
+
+#rightPane {
+	float: right;
+	padding-left: 200px;
+	font-size: large;
+}
+
+#rightPane a {
+	display: block;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+}
+
+#rightPane a:hover {
+	display: block;
+	color: black;
+	font-weight: bolder;
+}
+
+#footer {
+	height: 12px;
+	margin: auto;
+	margin-bottom: 1%;
+	padding: 5px;
+	clear: both;
+	text-align: center;
+	
+}
+
+#footer a {
+	color: #0B0B61;
+	font-size: medium;
+}
+
+#leftPane {
+	width: 15%;
+	height: 15%;
+	float: left;
+	padding: 1%;
+	background-color: #efefef;
+	font-size: large;
+	color: black;
+}
+
+#centerPane .errormessage {
+	font-size: 15px;
+	color: red;
+}
+
+#centerPane .success {
+	font-size: 24px;
+	color: green;
+}
+
+#centerPane .redirect {
+	font-size: 20px;
+	color: black;
+}
+
+#centerPane .mand {
+	font-size: 12px;
+	color: blue;
+}
+
+#centerPane .logout {
+	font-size: 18px;
+	text-align: right;
+	color: blue;
+}
+
+#linkImage a:hover {
+	display: block;
+	color: black;
+	font-weight: bolder;
+}
+
+#nameDisplay {
+	float: left;
+	padding-left: 200px;
+	font-size: large;
+}
+
+.dataTableHeader {
+	background-color: #A9A9F5;
+	text-align: center;
+	display: inline;
+	font-size:medium;
+	color: Black;
+	font-family: "Book Antiqua", "Times New Roman", "Serif";
+	border-color: white;
+	padding-bottom: 5px; padding-left : 5px; padding-right : 5px;
+	padding-top : 5px;
+	border-collapse: separate;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+}
+
+.dataTableRowOne {
+	color: Black;
+	font-family: "Book Antiqua", "Times New Roman", "Serif";
+	text-align: left;
+	background-color: #BDBDBD;
+	display: inline;
+	font-size: medium;
+	width:10mm;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+}
+
+.dataTableRowTwo {
+	color: Black;
+	font-family: "Book Antiqua", "Times New Roman", "Serif";
+	text-align: left;
+	background-color: #FFCCFF;
+	display: inline;
+	font-size: medium;
+	width:10mm;
+	
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+}
