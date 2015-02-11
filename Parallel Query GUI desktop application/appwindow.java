@@ -103,9 +103,9 @@ public class AppWindow extends Frame {
                                 Class.forName("oracle.jdbc.driver.OracleDriver");
  
  
-                                String url = "jdbc:oracle:thin:@offmprd1dbs10:1521:ROTBP1AP";
-                                String urlwln = "jdbc:oracle:thin:@offmprd1dbs11:1521:WLNBP1AP";
-                                String urlbpd = "jdbc:oracle:thin:@offmprd1dbs12:1521:BPDBP1AP";
+                                String url = "jdbc:oracle:thin:@";
+                                String urlwln = "jdbc:oracle:thin:@<>:1521:<>";
+                                String urlbpd = "jdbc:oracle:thin:@<>:1521:<>";
  
                                 // String url = "jdbc:oracle:thin:@localhost:1521:name";
  
@@ -113,9 +113,9 @@ public class AppWindow extends Frame {
 //query wln SELECT count(t4.objid) FROM table_oss_eh_event T1 INNER JOIN table_hgbst_elm T2 ON T1.oss_state2hgbst_elm = T2.objid INNER JOIN table_oss_eh_error_code T3 ON T1.oss_eh_event2eh_error_code = T3.objid INNER JOIN table_oss_router_msg T4 ON T1.oss_eh_event2router_msg = T4.objid WHERE (T2.s_ref_id = 'OSS_EH_MANUAL') AND (T3.s_oss_error_code = 'TLS_SF_TECHNICAL_ERROR') AND (T4.s_oss_message_id IS NULL)
                                
                                
-                                Connection conn = DriverManager.getConnection(url,"sac", "welcome1");
-                                Connection connwln = DriverManager.getConnection(urlwln,"sac", "welcome1");
-                                Connection connbpd = DriverManager.getConnection(urlbpd,"sac", "welcome1");
+                                Connection conn = DriverManager.getConnection(url,"sac", "*****");
+                                Connection connwln = DriverManager.getConnection(urlwln,"sac", "*****");
+                                Connection connbpd = DriverManager.getConnection(urlbpd,"sac", "*****");
                                
                                
                                 conn.setAutoCommit(false);
