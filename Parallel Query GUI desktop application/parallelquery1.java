@@ -145,27 +145,27 @@ public class ParallelQuery {
  
                                                                 Class.forName("oracle.jdbc.driver.OracleDriver").newInstance();
                                                                 Connection conrot = DriverManager.getConnection(
-                                                                                                urlrot , "", "welcome1");
+                                                                                                urlrot , "", "");
                                                                
                                                                 System.out.println("conneted to ROT");
                                                                 Connection conwln = DriverManager.getConnection(
-                                                                                                urlwln , "", "welcome1");
+                                                                                                urlwln , "", "");
  
  
  
                                                                 Connection conmob = DriverManager.getConnection(
-                                                                                                urlmob , "", "welcome1");
+                                                                                                urlmob , "", "");
                                                                 Connection conorc = DriverManager.getConnection(
-                                                                                                urlorc , "", "welcome1");
+                                                                                                urlorc , "", "");
                                                                 Connection conbpd = DriverManager.getConnection(
-                                                                                                urlbpd , "", "welcome1");
+                                                                                                urlbpd , "", "");
  
                                                                 Connection conbulk = DriverManager.getConnection(
-                                                                                                urlbulk , "", "welcome1");
+                                                                                                urlbulk , "", "");
                                                                 Connection conptv = DriverManager.getConnection(
-                                                                                                urlptv , "", "welcome1");
+                                                                                                urlptv , "", "");
                                                                 Connection conusm = DriverManager.getConnection(
-                                                                                                urlusm , "", "welcome1");
+                                                                                                urlusm , "", "");
  
  
                                                                 //String sql = "Select * from MYSHOPEE_LOGINDETAILS";
