@@ -80,7 +80,7 @@ public class ParallelQueryDetails {
                                                
                                 if (dbid.equalsIgnoreCase("ROTBP1AP")){
                                                 Connection conrot = DriverManager.getConnection(
-                                                                                urlrot , "SAC", "welcome1");
+                                                                                urlrot , "", "");
                                                 PreparedStatement sROT = conrot.prepareStatement(sql);
                                                 sROT.setString(1, text);
                                                 ResultSet resultSetROT = sROT.executeQuery();
@@ -116,7 +116,7 @@ public class ParallelQueryDetails {
                                                
                                                 System.out.println("in MOB");
                                                 Connection conmob = DriverManager.getConnection(
-                                                                                urlmob , "SAC", "welcome1");
+                                                                                urlmob , "", "");
                                                
                                                 PreparedStatement sMOB = conmob.prepareStatement(sql);
                                                 sMOB.setString(1, text);
@@ -156,7 +156,7 @@ public class ParallelQueryDetails {
                                                 System.out.println("in orc");
                                                
                                                 Connection conorc = DriverManager.getConnection(
-                                                                                urlorc , "SAC", "welcome1");
+                                                                                urlorc , "", "");
                                                
                                                 PreparedStatement sORC = conorc.prepareStatement(sql);
                                                 sORC.setString(1, text);
@@ -193,7 +193,7 @@ public class ParallelQueryDetails {
                                                
                                                 System.out.println("in WLN");
                                                 Connection conwln = DriverManager.getConnection(
-                                                                                urlwln , "SAC", "welcome1");
+                                                                                urlwln , "", "");
                                                 PreparedStatement sWLN = conwln.prepareStatement(sql);
                                                 sWLN.setString(1, text);
                                                 ResultSet resultSetWLN = sWLN.executeQuery();
@@ -225,7 +225,7 @@ public class ParallelQueryDetails {
                                 if (dbid.equalsIgnoreCase("BPDBP1AP")){
                                                 System.out.print("inside bpd");
                                                 Connection conbpd = DriverManager.getConnection(
-                                                                                urlbpd , "SAC", "welcome1");
+                                                                                urlbpd , "", "");
                                                 PreparedStatement sBPD = conbpd.prepareStatement(sql);
                                                 sBPD.setString(1, text);
                                                 ResultSet resultSetBPD = sBPD.executeQuery();
@@ -261,7 +261,7 @@ public class ParallelQueryDetails {
                                 if (dbid.equalsIgnoreCase("BULBP1AP")){
  
                                                 Connection conbulk = DriverManager.getConnection(
-                                                                                urlbulk , "SAC", "welcome1");
+                                                                                urlbulk , "", "");
                                                 PreparedStatement sBULK = conbulk.prepareStatement(sql);
                                                 sBULK.setString(1, text);
                                                 ResultSet resultSetBULK = sBULK.executeQuery();
@@ -288,7 +288,7 @@ public class ParallelQueryDetails {
                                 if (dbid.equalsIgnoreCase("PTVBP1AP")){
  
                                                 Connection conptv = DriverManager.getConnection(
-                                                                                urlptv , "SAC", "welcome1");
+                                                                                urlptv , "", "");
                                                 PreparedStatement sPTV = conptv.prepareStatement(sql);
                                                 sPTV.setString(1, text);
                                                 ResultSet resultSetPTV = sPTV.executeQuery();
@@ -313,7 +313,7 @@ public class ParallelQueryDetails {
                                 if (dbid== "USMBP1AP"){
  
                                                 Connection conusm = DriverManager.getConnection(
-                                                                                urlusm , "CRAMER", "welcome1");
+                                                                                urlusm , "", "");
                                                 PreparedStatement sUSM = conusm.prepareStatement(sql);
                                                 sUSM.setString(1, text);
                                                 ResultSet resultSetUSM = sUSM.executeQuery();
